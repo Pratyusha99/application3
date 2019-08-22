@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Loaner Request">5257dda3db5333009d415385ca9619f7</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter table="x_367181_loaner_re_loaner_request">stateNOT IN3^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="NOT IN" or="false" value="3"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint>to display open loan request records</hint>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>open</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_367181_loaner_re_loaner_request</name>
+        <order>300</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_367181_loaner_re.loaner_request_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-22 16:50:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a5769fa3db9733009d415385ca96199b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>open</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Loaner Request" source="x_367181_loaner_re">a55241a7db1333009d415385ca96192b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">a55241a7db1333009d415385ca96192b</sys_scope>
+        <sys_update_name>sys_app_module_a5769fa3db9733009d415385ca96199b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-22 17:20:05</sys_updated_on>
+        <timeline_page/>
+        <title>open</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>
